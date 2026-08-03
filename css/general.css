@@ -5,12 +5,12 @@
 
 /* Variables*/
 :root{
-    --color-primary: #1F1F36;   
-    --color-dark: #E0ECFA;     
+    --color-obscure: #1F1F36;   
+    --color-grey: #E0ECFA;     
     --color-accent: #607B98;
     --color-bg: #cfbba7;
     --color-text: #1F1F36;
-    --color-white: #7C9FCA;
+    --color-blue: #7C9FCA;
     
     --font-heading: "Inter", sans-serif;
     --font-body: "Plus Jakarta Sans", sans-serif;}
@@ -52,32 +52,32 @@ ul{
     cursor: pointer;}
 
 .btn-primary{
-    color: var(--color-white);
-    background-color: var(--color-primary);
+    color: var(--color-blue);
+    background-color: var(--color-obscure);
     transition: transform 0.2s, background-color 0.3s;}
 
 .btn-primary:hover{
-    background-color: var(--color-dark);
+    background-color: var(--color-grey);
     transform: translateY(-2px);
     transform: scale(1.05);}
 
 .btn-secondary{
-    color: var(--color-primary);
+    color: var(--color-obscure);
     background-color: transparent;
-    border: 2px solid var(--color-primary);}
+    border: 2px solid var(--color-obscure);}
 
 .btn-secondary:hover{
-    background-color: var(--color-primary);
-    color: var(--color-white);}
+    background-color: var(--color-obscure);
+    color: var(--color-blue);}
 
 .page-title{
     text-align: center;
     font-size: 2.5rem;
     margin: 2rem 0;
-    color: var(--color-primary);}
+    color: var(--color-obscure);}
 
 header{
-    background-color: var(--color-dark);
+    background-color: var(--color-grey);
     padding: 1rem 2rem;
     position: sticky;
     top: 0;
@@ -97,7 +97,7 @@ header{
     gap: 1.8rem;}
 
 .nav-links li a{
-    color: var(--color-white);
+    color: var(--color-blue);
     font-size: 0.95rem;
     display: flex;
     align-items: center;
@@ -108,8 +108,8 @@ header{
     color: var(--color-accent);}
 
 footer{
-    background-color: var(--color-dark);
-    color: var(--color-white);
+    background-color: var(--color-grey);
+    color: var(--color-blue);
     text-align: center;
     padding: 2.5rem 1rem;
     margin-top: auto;}

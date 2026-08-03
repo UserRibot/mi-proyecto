@@ -2,7 +2,7 @@ form{
     display: flex;
     flex-direction: column;
     gap: 1.3rem;
-    background-color: var(--color-white);
+    background-color: var(--color-blue);
     padding: 2rem;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
